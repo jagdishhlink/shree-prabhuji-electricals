@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { X } from "lucide-react";
+import { X, ArrowRight } from "lucide-react";
 import { businessData } from "@/data/site-data";
 
 export function GallerySection() {
@@ -12,6 +12,9 @@ export function GallerySection() {
 
   const images = businessData.images || [];
   if (images.length === 0) return null;
+
+  const displayImages = images.slice(0, 6);
+  const hasMore = images.length > 6;
 
   return (
     <section id="gallery" className="section-padding" ref={ref}>
@@ -31,9 +34,9 @@ export function GallerySection() {
           </h2>
         </motion.div>
 
-        {/* Masonry Grid */}
+        {/* Masonry Grid — max 6 images */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
-          {images.map((img: string, i: number) => (
+          {displayImages.map((img: string, i: number) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, scale: 0.9 }}
@@ -56,6 +59,24 @@ export function GallerySection() {
             </motion.div>
           ))}
         </div>
+
+        {/* View All button */}
+        {hasMore && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ delay: 0.4 }}
+            className="text-center mt-12"
+          >
+            <a
+              href="/gallery"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-full font-semibold hover:opacity-90 transition-all hover:shadow-lg hover:shadow-primary/25"
+            >
+              View All Photos ({images.length})
+              <ArrowRight size={18} />
+            </a>
+          </motion.div>
+        )}
       </div>
 
       {/* Lightbox */}
