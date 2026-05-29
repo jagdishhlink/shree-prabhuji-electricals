@@ -81,25 +81,29 @@ export function Footer() {
 
           {/* Social + Map */}
           <div className="space-y-4">
-            <h4 className="font-heading font-semibold text-lg">Follow Us</h4>
-            <div className="flex gap-3">
-              {Object.entries(socials).map(([platform, url]) => {
-                const Icon = socialIcons[platform];
-                if (!Icon || !url) return null;
-                return (
-                  <a
-                    key={platform}
-                    href={url as string}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-white transition-all"
-                    aria-label={platform}
-                  >
-                    <Icon size={18} />
-                  </a>
-                );
-              })}
-            </div>
+            {Object.entries(socials).some(([platform, url]) => socialIcons[platform] && url) && (
+              <>
+                <h4 className="font-heading font-semibold text-lg">Follow Us</h4>
+                <div className="flex gap-3">
+                  {Object.entries(socials).map(([platform, url]) => {
+                    const Icon = socialIcons[platform];
+                    if (!Icon || !url) return null;
+                    return (
+                      <a
+                        key={platform}
+                        href={url as string}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+                        aria-label={platform}
+                      >
+                        <Icon size={18} />
+                      </a>
+                    );
+                  })}
+                </div>
+              </>
+            )}
             {businessData.rating && (
               <div className="mt-4 p-3 rounded-lg bg-primary/5 border border-primary/10">
                 <div className="flex items-center gap-2">
