@@ -13,45 +13,45 @@ export const businessData = {
   reviewsCount: "49",
   openingHours: "Show open hours for the week",
   logo: "/images/logo.jpg",
-  images: ["/images/gmap_1780052189115_0.jpg", "/images/gmap_1780052189156_1.jpg", "/images/gmap_1780052189213_2.jpg", "/images/gmap_1780052189250_3.jpg", "/images/gmap_1780052189285_4.jpg", "/images/gmap_1780052189307_5.jpg", "/images/gmap_1780052189336_6.jpg", "/images/website_0.jpg", "/images/website_1.jpg"],
+  images: ["/images/gmap_1780052623386_0.jpg", "/images/gmap_1780052623421_1.jpg", "/images/gmap_1780052623456_2.jpg", "/images/gmap_1780052623479_3.jpg", "/images/gmap_1780052623501_4.jpg", "/images/gmap_1780052623519_5.jpg", "/images/gmap_1780052623540_6.jpg", "/images/website_0.jpg", "/images/website_1.jpg"],
   description: "",
   socials: {},
 };
 
 export const aiContent = {
-  tagline: "Ahmedabad's Trusted Electrical Hub",
-  heroDescription: "Shree Prabhuji Electricals is a leading electrical products wholesaler in Ahmedabad, offering a wide range of products to cater to your electrical needs. With our extensive experience and expertise, we provide top-notch products and services to our customers. Located in the heart of Ahmedabad, we are committed to delivering exceptional quality and service.",
-  aboutTitle: "Our Story: Empowering Ahmedabad with Quality Electrical Solutions",
-  aboutText: "At Shree Prabhuji Electricals, we are dedicated to providing our customers with the best possible electrical products and services. Located in the bustling area of Ghatlodiya, near Sattadhar Cross Rd, our store is easily accessible and offers a wide range of products to cater to your electrical needs. With our expertise and commitment to quality, we have become a trusted name in the electrical industry in Ahmedabad.",
+  tagline: "Electrifying Ahmedabad",
+  heroDescription: "Shree Prabhuji Electricals, located in the heart of Ahmedabad, offers a wide range of electrical products. With years of experience, we have established ourselves as a trusted wholesaler in the region. Our commitment to quality and customer satisfaction has made us a preferred choice among our clients.",
+  aboutTitle: "Our Story, Our Values",
+  aboutText: "At Shree Prabhuji Electricals, we take pride in our location at 4,5,6,7, Sun castal complex, Gulab Tower Road, Sattadhar Cross Rd, opp. RK Restaurant, Ghatlodiya, Ahmedabad, Gujarat 380061. This strategic location allows us to cater to the electrical needs of our clients in Ahmedabad and surrounding areas. Our team is dedicated to providing excellent service and ensuring that our clients receive the best products at competitive prices. We strive to build long-term relationships with our clients and contribute to the growth of our community.",
   services: [
-    { icon: "💡", title: "Electrical Product Wholesale", description: "We offer a wide range of electrical products, including wires, cables, switches, and more, at competitive prices." },
-    { icon: "🔋", title: "Industrial Electrical Solutions", description: "Our team provides expert solutions for industrial electrical needs, including custom wiring and electrical panel installation." },
-    { icon: "🏠", title: "Residential Electrical Services", description: "We provide comprehensive electrical services for residential areas, including new construction, renovation, and repair work." },
-    { icon: "🛍️", title: "Store Services", description: "Visit our store in Ghatlodiya to browse our extensive range of electrical products and receive expert advice from our team." },
-    { icon: "📞", title: "Online Payment Services", description: "We offer convenient online payment options for our customers, making it easy to pay for our products and services from anywhere in Ahmedabad." },
-    { icon: "📊", title: "Electrical Product Consultation", description: "Our team provides expert consultation services to help you choose the right electrical products for your specific needs." }
+    { icon: "💡", title: "Electrical Wiring Solutions", description: "Our team provides expert electrical wiring solutions for residential, commercial, and industrial projects in Ahmedabad." },
+    { icon: "🔋", title: "Electrical Panel Installation", description: "We offer high-quality electrical panel installation services, ensuring safe and efficient distribution of power." },
+    { icon: "🛍️", title: "Wholesale Electrical Products", description: "Shree Prabhuji Electricals offers a wide range of electrical products at competitive prices, catering to the needs of businesses and individuals in Ahmedabad." },
+    { icon: "🔧", title: "Electrical Repair and Maintenance", description: "Our team provides prompt and reliable electrical repair and maintenance services, minimizing downtime and ensuring the smooth operation of our clients' businesses." },
+    { icon: "📈", title: "Energy Efficiency Solutions", description: "We help our clients reduce energy consumption and costs by providing energy-efficient electrical solutions and products." },
+    { icon: "📊", title: "Electrical Auditing and Testing", description: "Our team conducts thorough electrical auditing and testing to identify potential issues and ensure compliance with safety standards." }
   ],
   whyChooseUs: [
-    { icon: "👍", title: "Quality Products", description: "We source our products from reputable manufacturers to ensure that our customers receive only the best quality electrical products." },
-    { icon: "📈", title: "Competitive Pricing", description: "We offer competitive pricing for our products and services, ensuring that our customers receive the best value for their money." },
-    { icon: "👨‍💼", title: "Expert Team", description: "Our team consists of experienced professionals who are dedicated to providing exceptional service and support to our customers." },
-    { icon: "📞", title: "Convenient Location", description: "Our store is located in a convenient area of Ahmedabad, making it easy for our customers to visit us and receive our services." }
+    { icon: "👍", title: "Local Expertise", description: "As a local business, we have in-depth knowledge of the Ahmedabad market and can provide tailored electrical solutions to meet the specific needs of our clients." },
+    { icon: "💼", title: "Experienced Team", description: "Our team has years of experience in the electrical industry, ensuring that our clients receive high-quality products and services." },
+    { icon: "📊", title: "Competitive Pricing", description: "We offer competitive pricing for our products and services, ensuring that our clients receive the best value for their money." },
+    { icon: "📈", title: "Customer-Centric Approach", description: "At Shree Prabhuji Electricals, we prioritize our clients' needs and strive to build long-term relationships with them." }
   ],
   testimonials: [
-    { name: "Sachin Shah", role: "Business Owner", text: "I have been purchasing electrical products from Shree Prabhuji Electricals for years and have always been satisfied with their quality and service. Their team is knowledgeable and helpful, and their prices are very competitive.", rating: 5 },
-    { name: "Sandeep Singh", role: "Contractor", text: "I have worked with Shree Prabhuji Electricals on several projects and have always been impressed with their expertise and professionalism. Their products are of high quality, and their service is exceptional.", rating: 5 },
-    { name: "Sonia Mehta", role: "Homeowner", text: "I recently purchased electrical products from Shree Prabhuji Electricals for my home renovation project, and I was very satisfied with the quality and service. Their team is friendly and helpful, and their prices are reasonable.", rating: 5 }
+    { name: "Olivier Dsouza", role: "Facility Manager", text: "Shree Prabhuji Electricals provided us with excellent electrical wiring solutions for our new office building. Their team was professional and efficient, and we are extremely satisfied with their work.", rating: 5 },
+    { name: "Omkar Patel", role: "Business Owner", text: "We have been using Shree Prabhuji Electricals' wholesale electrical products for our construction projects, and we are impressed with the quality and prices. Their service is also top-notch.", rating: 5 },
+    { name: "Ojasvi Mehta", role: "Homeowner", text: "I recently hired Shree Prabhuji Electricals to install new electrical panels in my home, and I am thrilled with the result. Their team was courteous and professional, and the work was done quickly and efficiently.", rating: 5 }
   ],
-  faq: { items: [{ question: "What types of electrical products do you offer?", answer: "We offer a wide range of electrical products, including wires, cables, switches, and more, from reputable manufacturers." },
-    { question: "Do you provide installation services for electrical products?", answer: "Yes, we provide installation services for our electrical products, including custom wiring and electrical panel installation, for both residential and industrial areas." },
-    { question: "Can I pay online for your products and services?", answer: "Yes, we offer convenient online payment options for our customers, making it easy to pay for our products and services from anywhere in Ahmedabad." },
-    { question: "Do you have a physical store location?", answer: "Yes, our store is located in the Ghatlodiya area of Ahmedabad, near Sattadhar Cross Rd, and is easily accessible by public transportation." },
-    { question: "What is your return and refund policy?", answer: "We have a clear return and refund policy in place, which can be found on our website or by contacting our customer support team." },
-    { question: "Can I get a quote for your electrical services?", answer: "Yes, please contact our team to discuss your specific electrical needs and receive a quote for our services." }] },
-  ctaTitle: "Get the Best Electrical Solutions in Ahmedabad",
-  ctaDescription: "Contact us today to learn more about our electrical products and services and to receive a quote for your specific needs.",
-  ctaButtonText: "Get Quote Now",
-  metaDescription: "Shree Prabhuji Electricals: Ahmedabad's trusted electrical products wholesaler",
+  faq: { items: [{ question: "What areas do you serve?", answer: "Shree Prabhuji Electricals serves Ahmedabad and surrounding areas, including Ghatlodiya, where our office is located." },
+    { question: "Do you offer free consultation?", answer: "Yes, we offer free consultation for our electrical services. Please contact us to schedule an appointment." },
+    { question: "What types of electrical products do you sell?", answer: "We sell a wide range of electrical products, including wiring, panels, switches, and more. Please visit our store or contact us for a complete list of products." },
+    { question: "Do you provide emergency electrical services?", answer: "Yes, we provide emergency electrical services for our clients. Please contact us at 099092 92405 for prompt assistance." },
+    { question: "How do I make a payment?", answer: "We accept various payment methods, including cash, credit/debit cards, and online payment. Please contact us for more information." },
+    { question: "What is your return and refund policy?", answer: "Please contact us for our return and refund policy. We strive to ensure that our clients are satisfied with our products and services." }] },
+  ctaTitle: "Get Expert Electrical Solutions",
+  ctaDescription: "Contact us today to learn more about our electrical services and products. Our team is ready to help you with your electrical needs.",
+  ctaButtonText: "Get Started Now",
+  metaDescription: "Shree Prabhuji Electricals: Ahmedabad's trusted electrical wholesaler and service provider.",
 };
 
 export const siteConfig = {

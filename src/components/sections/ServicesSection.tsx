@@ -21,7 +21,7 @@ export function ServicesSection() {
 interface ServiceProps {
   services: any[];
   isInView: boolean;
-  sectionRef: React.RefObject<HTMLElement | null>;
+  sectionRef: React.RefObject<any>;
 }
 
 function ServicesGrid({ services, isInView, sectionRef }: ServiceProps) {
